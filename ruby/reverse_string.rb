@@ -1,5 +1,11 @@
 def reverse_string(str)
   # type your code in here
+  reverse_str = ""
+  str_length = self.length - 1
+  str_length.downto(0).each do |i|
+    reverse_str << self[i]
+  end
+  reverse_str
 end
 
 if __FILE__ == $PROGRAM_NAME
